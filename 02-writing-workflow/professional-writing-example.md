@@ -1,50 +1,55 @@
-# Professional Writing Workflow
+# Professional Writing Example
 
-## Workplace Scenario
+This example uses the four-step writing workflow: **Draft, Verify, Refine, and Human Sign-off**.
 
-A Business Analyst needs to communicate a project timeline update to a stakeholder.
+## 1. AI-Generated Draft
 
-## Step 1 — AI-Generated Draft
+**Subject: Important Project Timeline Update**
 
-> Subject: Project Timeline Update
->
-> The project deadline has been revised to September 22. The team is currently working according to the updated timeline and will complete the required deliverables by the revised deadline.
+Hello Team,
 
-## Step 2 — Fact Verification
+The project timeline has been updated because of a project delay. The deadline is now October 12, 2026 instead of October 5, 2026. This may affect several tasks, so please adjust your work accordingly and contact me if you have any concerns.
 
-The Business Analyst reviews the draft against the available project information.
+Regards,
+Noura
 
-* Revised deadline: September 22 — Verified
-* Current project status: Working according to the updated timeline — Verified
-* Required deliverables: Mentioned in the source information — Verified
-* Additional unsupported information: None identified
+## 2. Fact Verification
 
-## Step 3 — Tone Refinement
+I checked the draft against the confirmed scenario:
 
-The message is refined to make it professional, concise, and appropriate for a stakeholder.
+| **Item**                | **Verification Result**                       |
+| ----------------------- | --------------------------------------------- |
+| Original deadline       | Confirmed: October 5, 2026                    |
+| New deadline            | Confirmed: October 12, 2026                   |
+| Reason                  | Confirmed as a project delay                  |
+| Impact on several tasks | Not confirmed; removed                        |
+| Contact person          | Confirmed: Business Analyst / project contact |
 
-## Step 4 — Human Review and Sign-Off
+## 3. Tone Refinement
 
-The Business Analyst reviews the final message before sending it to confirm that the information is accurate, complete, and appropriate for the recipient.
+I changed **“Important Project Timeline Update”** to **“Project Timeline Update”** to make the subject more neutral and professional. I also removed the unconfirmed statement about several tasks being affected. The email was kept concise and clear without blaming any person or team.
 
-## Final Version
+## 4. Human Review and Sign-off
 
-> Subject: Project Timeline Update
->
-> Dear [Client Name],
->
-> I would like to provide you with an update regarding the project timeline. Please note that the revised deadline for completing the project is September 22.
->
-> We are currently working according to the updated timeline and will ensure that the required deliverables are completed by the revised deadline.
->
-> If you have any questions or require further clarification, please feel free to contact me.
->
-> Thank you for your understanding and cooperation.
->
-> Best regards,
-> [Manager's Name]
+I confirmed that the final version:
 
-## Key Learning
+* includes both dates;
+* gives the confirmed reason;
+* does not blame a person or team;
+* does not include unverified impacts; and
+* is concise and suitable for the project team.
 
-Generative AI can support professional writing, but the final communication should be verified and reviewed by a human before it is sent.
+**Human approval status:** Approved by the trainee for this fictional course example.
 
+## 5. Final Version
+
+**Subject: Project Timeline Update - New Deadline**
+
+Hello Team,
+
+Please note that the project deadline has been updated from October 5, 2026 to October 12, 2026 due to a project delay.
+
+Please update your plans to reflect the revised timeline. If you have any questions or require clarification, please let me know.
+
+Best regards,
+Noura
