@@ -2,34 +2,48 @@
 
 ## Workplace Scenario
 
-This example is based on a Business Analyst who needs to convert meeting notes into clear and structured action items.
+This example is based on a Business Analyst communicating a confirmed project timeline update to the project team.
 
-## Before — Weak Prompt
+## Before - Weak Prompt
 
-> Summarize these meeting notes and tell me what needs to be done.
+> Write an email about the project timeline update.
 
-### Initial Result
+## Initial Result
 
-The output may provide a general summary, but it may not clearly separate action items, owners, deadlines, priorities, or missing information.
+The initial result would probably be generic because the prompt does not explain the audience, original deadline, revised deadline, reason for the change, tone, or required format. The AI might also add or assume project details that were not provided.
 
-## After — Improved Prompt
+## After - Structured Prompt
 
-> Act as a Business Analyst. Review the meeting notes below and extract the key action items. For each action item, identify the owner, deadline, priority, and status only when the information is explicitly available. If any information is missing, write "Not Specified." Present the results in a clear table. Do not invent or assume information that is not included in the notes.
+### C.A.R.E. Prompt
 
-### Improved Result
+**Context:** I am a Business Analyst informing the project team about a confirmed timeline change. The original project deadline was September 15, 2026. The new deadline is September 22, 2026 due to a project delay.
 
-| Action Item                      | Owner | Deadline      | Priority      | Status        |
-| -------------------------------- | ----- | ------------- | ------------- | ------------- |
-| Update the requirements document | Sara  | Not Specified | Not Specified | Not Specified |
+**Action:** Write a professional email explaining the project timeline update.
 
-## What Improved
+**Rules:** Include both the original and revised deadlines and briefly explain the reason for the change. Use a professional, clear, and concise tone. Do not blame any person or add unconfirmed information.
 
-1. **Clear role:** The prompt defines the AI as a Business Analyst.
-2. **Specific task:** It clearly explains what information should be extracted.
-3. **Structured output:** It specifies a table with defined fields.
-4. **Accuracy control:** It instructs the AI not to invent missing information.
+**Expected Output:** An email with a clear subject line, two short paragraphs, and a professional closing.
 
-## Key Learning
+## Improved Result
 
-A well-structured prompt provides clearer instructions, defines the expected output, and reduces the risk of unsupported information.
+**Subject: Project Timeline Update - Revised Deadline**
+
+Hello Team,
+
+Please note that the project deadline has been updated from **September 15, 2026** to **September 22, 2026** due to a project delay.
+
+Please update your plans accordingly to reflect the revised timeline. If you have any questions or if the updated deadline affects your current tasks, please let me know.
+
+Best regards,
+Noura
+
+## What Improved?
+
+* The audience and purpose are clearly defined.
+* The original and revised deadlines are provided.
+* The reason for the timeline change is specified.
+* The tone and email format are clearly defined.
+* The rules reduce guessing and prevent the AI from adding unsupported information.
+* The prompt produces a more focused and workplace-appropriate email.
+
 
