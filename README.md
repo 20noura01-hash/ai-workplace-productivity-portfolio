@@ -1,51 +1,93 @@
-# ai-workplace-productivity-portfolio
 # AI Workplace Productivity Portfolio — Business Analyst
 
 ## Trainee Information
 
-* **Trainee Name:** Noura AlMohsen
-* **Training Program:** L0-FGP — Generative AI for Workplace Productivity
-* **Instructor:** Fahad Alqahtani
-* **Date:** September 2026
+* Trainee Name: Noura AlMohsen
+* Training Program: L0-FGP — Generative AI for Workplace Productivity
+* Instructor: Fahad Alqahtani
+* Date: September 2026
 
 ## Project Overview
 
-This portfolio demonstrates how generative AI can support common workplace tasks performed by a Business Analyst. It includes practical examples of prompt engineering, professional writing, information processing, planning, verification, responsible AI use, and personal AI integration. All examples are fictional or anonymized and were reviewed by the trainee.
+This portfolio demonstrates how a Business Analyst can use generative AI to improve routine workplace tasks while keeping human judgment and responsibility at the center. The repository demonstrates structured prompting, professional writing, information processing, planning, verification, responsible AI use, and a practical integration plan. All examples are fictional or anonymized and are designed around one consistent Business Analyst workplace scenario.
 
 ## Selected Workplace Scenario
 
-The selected workplace scenario is Business Analysis. The portfolio focuses on using generative AI to support requirements organization, meeting information processing, stakeholder communication, planning, and decision-ready summaries.
+The selected workplace scenario is a **Business Analyst supporting a business team**. The role includes organizing meeting information, drafting professional stakeholder communications, extracting and prioritizing requirements, supporting project planning, verifying AI-generated content, and using AI responsibly without exposing confidential or personal information.
 
 ## Course Skills Demonstrated
 
-* Prompt engineering using structured prompts
-* Professional writing with AI support
-* Information summarization and restructuring
-* Requirements organization and prioritization
-* Workplace planning
-* AI output verification
-* Responsible AI use
-* Human oversight and review
-* Practical AI integration into recurring workplace tasks
+* Structured prompt engineering using C.A.R.E. and R.C.T.O.
+* Few-shot prompting for repeatable formats.
+* Professional writing using Draft → Verify → Refine → Human Sign-off.
+* Summarizing, extracting, synthesizing, restructuring, and prioritizing information.
+* Planning using Goal → Mechanisms → Phases → Tasks.
+* Verification using Identify → Set Criteria → Test → Confirm and Decide.
+* Responsible AI principles: Accuracy, Accountability, Confidentiality, Privacy, Bias, and Human Oversight.
+* Green / Amber / Red information classification.
 
 ## Repository Contents
 
-| Section                 | Description                                        |
-| ----------------------- | -------------------------------------------------- |
-| 01-prompt-engineering   | Prompt library and before-and-after prompt example |
-| 02-writing-workflow     | Professional writing workflow                      |
-| 03-information-workflow | Information processing workflow                    |
-| 04-planning-workflow    | Workplace planning example                         |
-| 05-verification         | AI output verification checklist                   |
-| 06-responsible-ai       | Responsible AI use checklist                       |
-| 07-integration-plan     | Personal AI integration plan                       |
+| **Section**          | **Description**                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Prompt Engineering   | Reusable Business Analyst prompts using C.A.R.E. and R.C.T.O.                                                   |
+| Writing Workflow     | A professional project timeline update email shown through the Draft → Verify → Refine → Human Sign-off process |
+| Information Workflow | Transformation of raw business meeting notes into a structured decision-ready output                            |
+| Planning Workflow    | AI-assisted planning for requirements analysis and stakeholder review                                           |
+| Verification         | Personal verification checklist applied to a portfolio output                                                   |
+| Responsible AI       | Responsible-use analysis and Green / Amber / Red classification                                                 |
+| Integration Plan     | Practical plan for future AI use in Business Analyst tasks                                                      |
 
 ## Key Learnings
 
-1. Clear and structured prompts can improve the quality and usefulness of AI-generated outputs.
-2. AI-generated information should be verified against reliable source information before use.
-3. Human judgment, privacy, confidentiality, and responsible AI practices are essential when using generative AI in the workplace.
+1. A well-structured prompt produces more useful and predictable output than a vague request.
+2. AI-generated content should be verified, refined, and approved by a human before use.
+3. Missing information must be marked clearly rather than guessed.
+4. AI is most useful when it supports a defined workflow instead of replacing human judgment.
+5. Sensitive or confidential information should not be entered into public AI tools or uploaded to public repositories.
+
+## How to Use This Repository
+
+This repository is a documentation-based portfolio and does not require software installation or code execution.
+
+To review the project:
+
+1. Start with this `README.md` for the project overview and selected workplace scenario.
+2. Open `01-prompt-engineering` to review reusable C.A.R.E. and R.C.T.O. prompts and the Before/After example.
+3. Open `02-writing-workflow` to review the Draft → Verify → Refine → Human Sign-off process.
+4. Open `03-information-workflow` to see how raw meeting notes are transformed into a structured decision-ready output.
+5. Open `04-planning-workflow` to review the Goal → Mechanisms → Phases → Tasks planning method.
+6. Open `05-verification` to review the verification checklist and its application.
+7. Open `06-responsible-ai` to review the six Responsible AI principles and Green / Amber / Red classification.
+8. Open `07-integration-plan` to review the practical plan for future AI use.
+
+## Technical Documentation
+
+The technical documentation for this portfolio is organized across seven sections:
+
+* Prompt engineering using C.A.R.E. and R.C.T.O.
+* Draft → Verify → Refine → Human Sign-off writing workflow
+* Information-processing workflow
+* Goal → Mechanisms → Phases → Tasks planning method
+* Verification protocol and checklist
+* Responsible AI and information-sensitivity classification
+* Personal AI integration plan
+
+Each folder contains a dedicated Markdown file documenting the method, application, and final result.
+
+## Version Control Practice
+
+This repository uses GitHub commits to track project updates and documentation improvements. Changes are committed with clear, descriptive messages so that the project history remains easy to follow.
 
 ## Responsible Use Statement
 
 This portfolio does not contain real confidential, private, or sensitive organizational information. All examples are fictional or anonymized. AI-generated content was reviewed by the trainee, who takes responsibility for the final work.
+
+## Training Program
+
+This project was completed as part of the **L0-FGP — Generative AI for Workplace Productivity** training program at **SDAIA Academy**, under the supervision of **Fahad Alqahtani**.
+
+The portfolio demonstrates the practical application of generative AI for workplace productivity through prompt engineering, professional writing, information processing, planning, verification, responsible AI use, and personal AI integration.
+
+**Official SDAIA Academy GitHub:**
+[SDAIA Academy](https://github.com/SDAIAAcademy)
